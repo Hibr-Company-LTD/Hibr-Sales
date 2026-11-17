@@ -1,18 +1,18 @@
 {
-  "name": "salesskills",
+  "name": "hibrsales",
   "owner": {
-    "name": "Apparate",
-    "url": "https://apparate.com.au"
+    "name": "hibr",
+    "url": "https://hibr.site"
   },
   "metadata": {
-    "description": "Sales skills for Claude Code — prospecting, discovery, objection handling, negotiation, and AI SDR capabilities",
-    "version": "5.0.0",
-    "repository": "https://github.com/louisblythe/salesskills"
+    "description": "offical sales skills for hibr",
+    "version": "1.0.0",
+    "repository": "https://github.com/shadow4dev/Hibr-Sales"
   },
   "plugins": [
     {
-      "name": "sales-skills",
-      "description": "122 sales skills for SDRs, AEs, and revenue leaders: prospecting, discovery, competitive selling, negotiation, pipeline management, and AI SDR bot skills",
+      "name": "hibrsale",
+      "description": "offical sales skills for hibr",
       "source": "./",
       "strict": false,
       "skills": [
