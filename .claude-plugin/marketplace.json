@@ -11,7 +11,7 @@
   },
   "plugins": [
     {
-      "name": "hibe-sales,
+      "name": "hibe-sales",
       "description": "offical sales skills for hibr",
       "source": "./",
       "strict": false,
