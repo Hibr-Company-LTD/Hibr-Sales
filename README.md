@@ -1,28 +1,6 @@
-# Sales Skills for Claude Code
+# Hibr Sales Skills
 
-A collection of AI agent skills focused on B2B sales tasks. Built for sales professionals, SDRs, AEs, and revenue leaders who want Claude Code (or similar AI coding assistants) to help with prospecting, discovery, deal execution, pipeline management, and closing.
-
-Built by [Apparate](https://apparate.com.au?ref=salesskills).
-
-**Contributions welcome!** Found a way to improve a skill or have a new one to add? [Open a PR](#contributing).
-
-## What this fork adds
-
-This project adapts [Marketing Skills](https://github.com/coreyhaines31/marketingskills) for B2B sales. Its playbooks cover discovery, qualification, negotiation and pipeline management. Each workflow is packaged as a Markdown skill so agents can load the relevant guidance for the task.
-
-## Five-minute quickstart
-
-From the root of a project, install the discovery skill for your preferred agent:
-
-```sh
-npx skills add louisblythe/Sales-Skills --skill discovery
-```
-
-Open your agent in that project and try this prompt:
-
-> Use the discovery skill to turn these call notes into confirmed needs, open questions, and a 20-minute follow-up agenda. Treat budget, timeline, and buying authority as unknown unless the notes establish them. Notes: Ops reconciles Salesforce and a spreadsheet for two hours each Friday. Finance spotted discrepancies last month. The ops lead said a pilot “might be possible next quarter.”
-
-Compare your result with the [worked discovery example](examples/discovery.md), which includes annotated output and follow-up questions.
+Our offical sales team skills
 
 ## What are Skills?
 
@@ -274,48 +252,3 @@ These skills incorporate proven sales frameworks:
 - **Challenger Sale** - Teach, Tailor, Take Control
 - **Gap Selling** - Current State → Future State
 
-## Contributing
-
-Found a way to improve a skill? Have a new skill to suggest? PRs and issues welcome!
-
-**Ideas for contributions:**
-- Improve existing skill instructions or frameworks
-- Add new objection handling scripts
-- Add industry-specific variations
-- Fix typos or clarify confusing sections
-- Suggest new skills (open an issue first to discuss)
-- Add examples or case studies
-
-**How to contribute:**
-1. Fork the repo
-2. Edit the skill file(s)
-3. Submit a PR with a clear description of what you improved
-
-Run `ruby scripts/check_skills.rb` before opening a PR. GitHub Actions runs the same check.
-
-### Skill File Structure
-
-Each skill is a directory containing a `SKILL.md` file:
-
-```
-skills/
-  skill-name/
-    SKILL.md
-```
-
-The `SKILL.md` file follows this format:
-
-```markdown
----
-name: skill-name
-description: One-line description for skill selection
----
-
-# Skill Name
-
-[Full instructions for the AI agent]
-```
-
-## License
-
-MIT - Use these however you want.
