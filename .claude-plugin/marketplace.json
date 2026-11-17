@@ -1,5 +1,5 @@
 {
-  "name": "hibrsales",
+  "name": "Hibe-Sales",
   "owner": {
     "name": "hibr",
     "url": "https://hibr.site"
@@ -11,7 +11,7 @@
   },
   "plugins": [
     {
-      "name": "hibrsale",
+      "name": "Hibe-Sales",
       "description": "offical sales skills for hibr",
       "source": "./",
       "strict": false,
